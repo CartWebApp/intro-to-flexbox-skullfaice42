@@ -27,40 +27,51 @@
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
   border:10px solid goldenrod;
+  display: flex;
+  height: 100vi;
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap-reverse;
+  /* justify-content: flex-end; */
+  justify-content: space-around;
+  /* align-items: flex-end center; */
+  /* align-content: center; */
+  padding: 1%;
 }
 
 [class^="box"] {
-    
+    height: 24%;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .box1 {
-    
+  width: 32%;
 }
-
 .box2 {
-
+  width: 32%;
 }
 .box3 {
-
+  width: 24%;
 }
 .box4 {
-
+  width: 24%;
 }
 .box5 {
-
+  width: 24%;
 }
 .box6 {
-
+  width: 24%;
 }
 .box7 {
-
+  width: 49%;
 }
 .box8 {
-
+  width: 49%;
 }
 .box9 {
-
+  width: 32%;
+  order: -10;
 }
 .box10 {
-
+  width: 99%;
 }
